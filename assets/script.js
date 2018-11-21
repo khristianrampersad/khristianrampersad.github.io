@@ -7,7 +7,7 @@
       
               var gif = $(this).attr("data-name");
               
-              var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + gif + "&api_key=ILluATkQpMnP5LkzW1RPehryO2UkK1Xo&tag=basketball&limit=50";
+              var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gif + "&api_key=ILluATkQpMnP5LkzW1RPehryO2UkK1Xo&tag=basketball&limit=50";
       
       
               // Ajax //
