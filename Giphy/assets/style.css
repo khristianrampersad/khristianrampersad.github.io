@@ -1,0 +1,24 @@
+body {
+    background-image: url("./images/wp2617738.jpg");
+   
+  }
+  
+  h1 {
+    color: white;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px #f30000;
+}
+
+label {
+    color: white;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px #f30000;
+}
+
+.title {
+    color: white;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px #f30000;
+}
+
+.ratings {
+    color: white;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px #f30000;
+}
