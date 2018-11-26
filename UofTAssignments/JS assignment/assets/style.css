@@ -1,0 +1,54 @@
+.h1, h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-style: oblique;
+    width: 100%;
+    color: red;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.h2, h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-style: oblique;
+    width: 100%;
+    color: red;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+body {
+    background: url(./images/Wiki-background.jpg);
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 35%;
+    height: auto;
+    position: relative;
+    left: 383px; 
+    margin: auto;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+h3 {
+    font-size: 1.75rem;
+    color: red;
+    font-style: oblique;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-align: center;
+}
+
+#btnSearch {
+    position: relative;
+    left: 459px;
+}
+
+#message {
+    font-size: 40px;
+    text-align: center;
+    font-style: oblique;
+    color: red;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Assignment 3</title>
+    <!--Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="./assets/style.css">
+
+</head>
+
+    <body>
+        <!--Main Heading-->
+        <header>
+            <h1>Guess the Video Game</h1>
+        </header>
+
+        <div class="background">
+            <div class="container">
+
+                <!--Changing Image based on correct answers-->
+                <h2>Hit a Key to Start!</h2>
+                <h3>Can You Guess The Game?</h3>
+                <div>
+                    <img id="image" src="./assets/Images/zelda.gif" width="50%" height="200">
+                </div>
+
+                <!--Current Word Container-->
+                <div>
+                    <h3 id="currentword">_ _ _ _ _</h3>
+                </div>
+                <div id="scoreboard">
+                    <!--Guesses left Container-->
+                    <div class="chances">
+                        <h3>Lives Left:
+                            <span id="guessesremaining"></span>
+                        </h3>
+                    </div>
+
+                    <!--Wins counter Container-->
+                    <div class="winningguesses">
+                        <h3>You've Won:
+                            <span id="wins"></span>
+                        </h3>
+                    </div>
+                    <!--Loss counter Container-->
+                    <div class="losingguesses">
+                        <h3>You've Lost:
+                            <span id="losses"></span>
+                        </h3>
+                    </div>
+
+                    <!--Wrong guesses container-->
+                    <div class="wrongletters">
+                        <h3>WRONG!:
+                            <span id="wrongGuesses"></span>
+                        </h3>
+                    </div>
+                    <!--Hints-->
+                    <div class="container">
+                        <input type="button" id="btnSearch" value="Click Here For Clues!!!" onclick="getHint();"/>
+                            <p id="message"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="./assets/script.js"></script>
+
+    </body>
+
+</html>
